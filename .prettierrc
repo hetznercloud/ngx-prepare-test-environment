@@ -10,37 +10,8 @@
   "htmlWhitespaceSensitivity": "strict",
   "overrides": [
     {
-      "files": [
-        "*.md",
-        "*.json",
-        "*.yml",
-        ".prettierrc",
-        ".babelrc",
-        ".gitlab-ci.yml",
-        ".codeclimate.yml",
-        ".sass-lint.yml"
-      ],
+      "files": ["*.md", "*.json", "*.yml", ".prettierrc"],
       "options": {
-        "tabWidth": 2
-      }
-    },
-    {
-      "files": "index.html",
-      "options": {
-        "printWidth": 100
-      }
-    },
-    {
-      "files": "*.yaml.template",
-      "options": {
-        "parser": "yaml",
-        "tabWidth": 2
-      }
-    },
-    {
-      "files": "*.md.template",
-      "options": {
-        "parser": "markdown",
         "tabWidth": 2
       }
     }

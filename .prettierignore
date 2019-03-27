@@ -1,9 +1,2 @@
-.awcache
-.sass-cache
-.cache
 dist
-build
 node_modules
-src/assets
-src/i18n
-.vscode/google-chrome-debug
