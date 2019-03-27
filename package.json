@@ -7,8 +7,8 @@
     "build": "ng build && yarn copy:readme",
     "lint": "ng lint",
     "build:ngx-prepare-test-environment": "ng build",
-    "pretty": "prettier --list-different --config ./.prettierrc \"**/*.@(js|ts|scss|md|json|yml|html)\"",
-    "pretty:write": "prettier --write --config ./.prettierrc \"**/*.@(js|ts|scss|md|json|yml|html|template)\"",
+    "pretty": "prettier --list-different --config ./.prettierrc \"**/*.@(js|ts|md|json|html)\"",
+    "pretty:write": "prettier --write --config ./.prettierrc \"**/*.@(js|ts|md|json|html)\"",
     "copy:readme": "copyfiles -f ./README.md ./dist/ngx-prepare-test-environment/"
   },
   "private": true,
