@@ -99,8 +99,7 @@ describe('MyComponent #integration', () => {
 
 ## (Jest) Snapshot testing
 
-Into the `prepareTestEnvironment` function you can pass in as much as `TestModuleMetadata` as you like. For example with snapshot testings in which you
-probably like to test against real components and not against mocks to see how the html is rendered. This could look something like this:
+You can pass as many `TestModuleMetadata` configurations to `prepareTestEnvironment` as you like. Their contents will be merged and are enabling you to use more complex setups in your testfiles. We are using this functionality to run snapshot tests in jest with real components, to see if the DOM has been rendered correctly:
 
 ```typescript
 // ...
