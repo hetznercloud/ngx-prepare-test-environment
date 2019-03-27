@@ -2,6 +2,7 @@
   "name": "@hetznercloud/ngx-prepare-test-environment",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": "https://github.com/hetznercloud/ngx-prepare-test-environment",
   "scripts": {
     "ng": "ng",
     "build": "ng build && yarn copy:readme",
