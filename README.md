@@ -3,9 +3,20 @@
 Provides the helper function `prepareTestEnvironment` to speed up your tests. It is inspired by the blogpost
 [Angular Unit Testing performance](https://blog.angularindepth.com/angular-unit-testing-performance-34363b7345ba).
 
-**Caution:** This function overrides `TestBed.resetTestingModule`,
+#### Caution
+
+This function overrides `TestBed.resetTestingModule`,
 This could cause problems as we are changing the intended behaviour. With the release of this package we have this
 function in use for over a year, running over 5000 unittests and have not hit any issues with it yet.
+
+#### Ivy
+
+Ivy, the new render engine from angular, also comes with a new renderer for tests.
+The angular team has here also worked on the performance. In case you are using ivy
+`TestBed.resetTestingModule` isn't overriden any more. What we still do is:
+
+- Reducing the necessary boilerplate
+- Improve the way to remove the template to improve test speed in [unit tests](#unit-testing)
 
 ## How to use
 
