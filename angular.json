@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/ngx-prepare-test-environment/tsconfig.lib.json",
             "project": "projects/ngx-prepare-test-environment/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-prepare-test-environment/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
