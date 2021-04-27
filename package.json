@@ -1,6 +1,6 @@
 {
   "name": "@hetznercloud/ngx-prepare-test-environment",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "MIT",
   "repository": "https://github.com/hetznercloud/ngx-prepare-test-environment",
   "scripts": {
