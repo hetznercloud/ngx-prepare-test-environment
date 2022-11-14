@@ -21,22 +21,13 @@
             }
           }
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ngx-prepare-test-environment/src/test.ts",
-            "tsConfig": "projects/ngx-prepare-test-environment/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-prepare-test-environment/karma.conf.js"
-          }
-        },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ngx-prepare-test-environment/tsconfig.lib.json",
-              "projects/ngx-prepare-test-environment/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
+            "lintFilePatterns": [
+              "projects/ngx-prepare-test-environment/**/*.ts",
+              "projects/ngx-prepare-test-environment/**/*.html"
+            ]
           }
         }
       }
