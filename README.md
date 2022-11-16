@@ -1,3 +1,6 @@
+# Note:
+Tis repository has been archived as it does not provide any perfomance boost anymore because with Ivy Angular has improved the test performance by default.
+
 # NgxPrepareTestEnvironment
 
 Provides the helper function `prepareTestEnvironment` to speed up your tests. It is inspired by the blogpost
